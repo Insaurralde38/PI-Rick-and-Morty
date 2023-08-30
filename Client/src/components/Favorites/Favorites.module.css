@@ -1,0 +1,51 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding: 0px;
+    margin-top: 59px;
+
+}
+
+.nav{
+    display: flex;
+    background-color: #6cb043;
+    height: 35px;
+    width: 1920px;
+    align-items: center;
+    justify-content:space-evenly
+}
+
+.navDark{
+  display: flex;
+  background-color: #18191A;
+  height: 35px;
+  width: 1920px;
+  align-items: center;
+  justify-content:space-evenly
+}
+
+.poopy {
+  height: 60%;
+  width: 60%;
+  position: fixed;
+  top: 69%;
+  left: 69%;
+  transform: translate(-50%, -50%);
+  background: url('../Assets/mrPoopyButthole.webp') no-repeat right;
+  background-size: contain;
+}
+
+.poopyShot {
+  height: 45%;
+  width: 45%;
+  position: fixed;
+  top: 76%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  background: url('../Assets/mrPoopyButtholeShot.webp') no-repeat right;
+  background-size: contain;
+}

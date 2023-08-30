@@ -1,0 +1,120 @@
+.container {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+  
+  
+  .profile {
+    width: 500px;
+    margin: 0 auto;
+    background: #adcf4c;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .profile-dark {
+    width: 500px;
+    margin: 0 auto;
+    background: #242526;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .profile h2 {
+    font-family: "Poppins", sans-serif;
+    max-width: 350px;
+    margin-top: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  .profile-dark h2 {
+    font-family: "Poppins", sans-serif;
+    max-width: 350px;
+    margin-top: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #CCC;
+    text-align: center;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+  
+  .profile p {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    margin-left: 30px;
+    margin-top: 4px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1;
+  }
+
+  .profile-dark p {
+    font-family: "Poppins", sans-serif;
+    color: #CCC;
+    margin-left: 30px;
+    margin-top: 4px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1;
+  }
+
+  .profile .image {
+    width: 150px;
+    height: 150px;
+    background-image: url('../../components/Assets/portal.gif');
+    border-radius: 90%;
+    border: 3px solid black;
+    margin: 0 auto;
+    position: absolute;
+    right: 15px;
+    top: 28px;
+    transform-origin: bottom left;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+  }
+
+  .profile-dark .image {
+    width: 150px;
+    height: 150px;
+    background-image: url('../../components/Assets/portal.gif');
+    border-radius: 90%;
+    border: 3px solid #CCC;
+    margin: 0 auto;
+    position: absolute;
+    right: 15px;
+    top: 28px;
+    transform-origin: bottom left;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+  }
+  
+  .profile:hover .image {
+    transform: scale(2);
+    border-radius: 10px;
+  }
+
+  .profile-dark:hover .image {
+    transform: scale(2);
+    border-radius: 10px;
+  }

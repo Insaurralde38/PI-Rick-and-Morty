@@ -1,0 +1,604 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* ----------------------------------------------------------------------------------FLIP CARD----------------------------------------------------------------------------------- */
+
+.flip-container {
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  perspective: 1000px;
+  margin: 20px;
+}
+
+.flip-inner-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.flip-container:hover .flip-inner-container {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.flip-front,
+.flip-back,
+.flip-front-dark,
+.flip-back-dark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.flip-front {
+  background: #adcf4c;
+  padding: 2px;
+}
+
+.flip-front-dark {
+  background: #242526;
+  padding: 2px;
+}
+
+.flip-front img,
+.flip-front-dark img  {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.flip-back {
+  width: 300px;
+  height: 300px;
+  background: #adcf4c;
+  transform: rotateY(180deg);
+}
+
+.flip-back-dark {
+  width: 300px;
+  height: 300px;
+  background: #242526;
+  transform: rotateY(180deg);
+}
+
+.flip-back .profile-image img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-top: -25px;
+}
+
+.flip-back-dark .profile-image-dark img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #CCC;
+  margin-top: -25px;
+}
+
+.flip-title {
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  line-height: 0.9
+}
+
+.flip-title-dark {
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #CCC;
+  line-height: 0.9
+}
+
+.flip-back p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.flip-back-dark p {
+  font-family: "Poppins", sans-serif;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #CCC;
+}
+
+/* -----------------------------------------------------------------------------------TAG NAME----------------------------------------------------------------------------------- */
+
+.tag-name {
+  position: absolute;
+  background: #adcf4c;
+  width: 279px;
+  margin-left: -15px;
+  margin-top: 243px;
+  padding: .2rem 1.2rem;
+  border-radius: 0 5px 5px 0;
+}
+
+.tag-name-dark {
+  position: absolute;
+  background: #242526;
+  width: 279px;
+  margin-left: -15px;
+  margin-top: 243px;
+  padding: .2rem 1.2rem;
+  border-radius: 0 5px 5px 0;
+}
+
+.tag-name p {
+  margin: 0;
+  padding-top: .1rem;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.tag-name-dark p {
+  margin: 0;
+  padding-top: .1rem;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;  
+  color: #CCC;
+}
+
+.tag-name div {
+  position: absolute;
+  bottom: -23px;
+  right: 304px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid #6cb043;
+  border-bottom: 10px solid transparent;
+  border-left: 13px solid transparent;
+  z-index: -6;
+}
+
+.tag-name-dark div {
+  position: absolute;
+  bottom: -23px;
+  right: 304px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid #18191A;
+  border-bottom: 10px solid transparent;
+  border-left: 13px solid transparent;
+  z-index: -6;
+}
+
+/* ---------------------------------------------------------------------------------CLOSE BUTTON--------------------------------------------------------------------------------- */
+
+.wrapper {
+  margin-left: 255px;
+  margin-top: 4px;
+}
+.close-button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.close-button > div {
+  position: relative;
+}
+.close-button-block,
+.close-button-block-dark {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.close-button-block:before, .close-button-block:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(55% - 4px);
+  display: block;
+  width: 4px;
+  height: 25px;
+  transform-origin: bottom center;
+  background: black;
+  transition: all ease-out 280ms;
+}
+.close-button-block-dark:before, .close-button-block-dark:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(55% - 4px);
+  display: block;
+  width: 4px;
+  height: 25px;
+  transform-origin: bottom center;
+  background: #CCC;
+  transition: all ease-out 280ms;
+}
+
+.close-button-block:last-of-type,
+.close-button-block-dark:last-of-type  {
+  transform: rotate(180deg);
+}
+.close-button .in .close-button-block:before,
+.close-button .in .close-button-block-dark:before  {
+  transition-delay: 280ms;
+  transform: translateX(20px) translateY(-20px) rotate(45deg);
+}
+.close-button .in .close-button-block:after,
+.close-button .in .close-button-block-dark:after {
+  transition-delay: 280ms;
+  transform: translateX(-22px) translateY(-22px) rotate(-45deg);
+}
+.close-button .out {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.close-button .out .close-button-block:before,
+.close-button .out .close-button-block-dark:before {
+  transform: translateX(-5px) translateY(5px) rotate(45deg);
+}
+.close-button .out .close-button-block:after,
+.close-button .out .close-button-block-dark:after  {
+  transform: translateX(5px) translateY(5px) rotate(-45deg);
+}
+.close-button:hover .in .close-button-block:before,
+.close-button:hover .in .close-button-block-dark:before  {
+  transform: translateX(-5px) translateY(5px) rotate(45deg);
+}
+.close-button:hover .in .close-button-block:after,
+.close-button:hover .in .close-button-block-dark:after {
+  transform: translateX(5px) translateY(5px) rotate(-45deg);
+}
+.close-button:hover .out .close-button-block:before,
+.close-button:hover .out .close-button-block-dark:before {
+  transform: translateX(-20px) translateY(20px) rotate(45deg);
+}
+.close-button:hover .out .close-button-block:after,
+.close-button:hover .out .close-button-block-dark:after {
+  transform: translateX(20px) translateY(20px) rotate(-45deg);
+}
+
+/* ---------------------------------------------------------------------------------LIKE BUTTON---------------------------------------------------------------------------------- */
+
+/* Global Button Style for our like/unlike el */
+.like {
+  margin-left: -270px;
+  margin-top: 0px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #e2e2e2;
+  position: absolute;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  overflow: hidden;
+}
+
+/* Global Button Hover Style for our like/unlike el */
+.like:hover {
+  background: #fff;
+  transition: background-color 0.25s ease;
+}
+
+/* Liked/Unliked states of our like icon */
+.like span {
+  text-indent: -1000px;
+  font-size: 21px;
+}
+
+/* Global aspects of the like icon (holding our icon state view) */
+.like-icon {
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  top: 15%;
+  right: 15%;
+  bottom: 15%;
+  left: 15%;
+}
+
+.liked .like-icon-state {
+  transform: scale(0);
+}
+
+/* Set initial opacity and attach the like animation  */
+.liked .like-icon-state {
+  opacity: 0;
+  -webkit-animation: 1.2s like-animation both cubic-bezier(0.45, 0.05, 0.55, 0.95);
+          animation: 1.2s like-animation both cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+@-webkit-keyframes like-animation {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(1.25);
+  }
+  32% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes like-animation {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(1.25);
+  }
+  32% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Set initial opacity and attach the unlike animation  */
+.unliked .like-icon-state {
+  opacity: 0;
+  -webkit-animation: 1.2s unlike-animation both cubic-bezier(0.45, 0.05, 0.55, 0.95);
+          animation: 1.2s unlike-animation both cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+@-webkit-keyframes unlike-animation {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(0.98);
+  }
+  45% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes unlike-animation {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(0.98);
+  }
+  45% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Pop a small animation of the background on like */
+.liked {
+  background: #e2e2e2;
+  -webkit-animation: 1.2s liked-bg-animation both;
+          animation: 1.2s liked-bg-animation both;
+}
+
+@-webkit-keyframes liked-bg-animation {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes liked-bg-animation {
+  0% {
+    transform: scale(0);
+  }
+  15% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Pop a more discreet animation of the background on unlike */
+.unliked {
+  -webkit-animation: 1.2s unliked-bg-animation both;
+          animation: 1.2s unliked-bg-animation both;
+}
+
+@-webkit-keyframes unliked-bg-animation {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(0.7);
+  }
+  30% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes unliked-bg-animation {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(0.7);
+  }
+  30% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Pseudo el for our ring animation */
+.like::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  transform: scale(0);
+}
+
+/* Apply animation to the ring el */
+.liked::before {
+  -webkit-animation: 1.2s bg-ring-animation both;
+          animation: 1.2s bg-ring-animation both;
+}
+
+@-webkit-keyframes bg-ring-animation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  10% {
+    transform: scale(1.5);
+    opacity: 0.25;
+  }
+  15% {
+    transform: scale(2);
+    opacity: 0.15;
+  }
+  45% {
+    transform: scale(3.25);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes bg-ring-animation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  10% {
+    transform: scale(1.5);
+    opacity: 0.25;
+  }
+  15% {
+    transform: scale(2);
+    opacity: 0.15;
+  }
+  45% {
+    transform: scale(3.25);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+.saving::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  height: 60%;
+  border: 0.15em solid rgba(100, 100, 100, 0.5);
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  -webkit-animation: spin-animation 400ms infinite linear;
+          animation: spin-animation 400ms infinite linear;
+}
+
+@-webkit-keyframes spin-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
