@@ -39,7 +39,7 @@ Es una aplicación en la cual se puedan ver los distintos personajes de la serie
   - **Añadir a favoritos**
   - **Filtrar y ordenar favoritos**
 
-Sí deseas ingresar al deploy del proyecto, puedes utilizar las siguientes credenciales genericas:
+Sí deseas ingresar al deploy del proyecto, puedes utilizar el siguiente usuario genérico:
 
 -  **E-Mail**: `user@mail.com`
 -  **Password**: `Abcd1234`
