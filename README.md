@@ -21,6 +21,7 @@
 [![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=white&link=https://expressjs.com/es/)](https://expressjs.com/es/)
 [![Sequelize](https://img.shields.io/badge/Sequelize-31396A?style=flat-square&logo=Sequelize&logoColor=68AEE8&link=https://sequelize.org/)](https://sequelize.org/)
 [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-%23404d59?style=flat-square&logo=postgresql&logoColor=%2361DAFB&link=https://www.postgresql.org/)](https://www.postgresql.org/)
+[![Railway](https://img.shields.io/badge/-Railway-13111C?style=flat-square&logo=railway&link=https://railway.app/)](https://railway.app/)
 
 </div>
 
@@ -37,6 +38,11 @@ Es una aplicación en la cual se puedan ver los distintos personajes de la serie
   - **Buscar personajes por ID**
   - **Añadir a favoritos**
   - **Filtrar y ordenar favoritos**
+
+Sí deseas ingresar al deploy del proyecto, puedes utilizar las siguientes credenciales genericas:
+
+-  **E-Mail**: `user@mail.com`
+-  **Password**: `Abcd1234`
 
 Es necesario contar mínimamente con la última versión estable de Node.js y NPM. Asegúrate de contar con ella para poder instalar correctamente las dependencias necesarias para correr el proyecto. Actualmente las versiones necesarias son:
 
