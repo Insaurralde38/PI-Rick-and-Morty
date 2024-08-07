@@ -141,7 +141,7 @@ Para verificar que versión tienes instalada:
 
 </div>
 
-<br />
+<!-- <br /> -->
 
 ### **🖱 FRONT-END**
 
@@ -172,7 +172,7 @@ Se desarrollo una aplicación de React/Redux que contiene:
 -  **SearchBar:** un input de búsqueda para encontrar personajes por ID. La búsqueda será exitosa siempre y cuando el valor ingresado esté dentro del rango de valores disponibles **`( 1 – 826 )`**.
 -  **Add Random:** Realiza una búsqueda de un ID al azar, obviando los previamente buscados.
 -  **Favorites:** Redirige a la página de favoritos.
--  **About:** Redirige a la página de detalles del autor del proyecto. 🐵
+-  **About:** Redirige a la página de detalles del autor del proyecto. <img src="./Client/src/components/Assets/boke-chimp.png" alt="chimp" height="21" width="21" style="margin: 0px 0px -4px 0px" >
 -  **Light/Dark Toggle:** Permite cambiar de tema claro a tema oscuro y viceversa.
 -  **Pickle Rick:** Al hacer hover sobre la imagen reproduce audios de este personaje.
 
@@ -205,9 +205,9 @@ Se desarrollo una aplicación de React/Redux que contiene:
     -  **Experiencia:** Información laboral, previa al ingreso al mundo tech.
     -  **Contacto:** Información con distintos métodos de contacto con el autor del proyecto.
 
----
-
 <br />
+
+---
 
 ### **🖱 BACK-END**
 
@@ -237,7 +237,7 @@ Se desarrollo un servidor en Node.js/Express con las siguientes rutas:
 
 ---
 
-<br />
+<!-- <br /> -->
 
 ### **🖱 BASE DE DATOS**
 
