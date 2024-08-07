@@ -2,7 +2,7 @@
     <img src='https://static.wixstatic.com/media/85087f_0d84cbeaeb824fca8f7ff18d7c9eaafd~mv2.png/v1/fill/w_160,h_30,al_c,q_85,usm_0.66_1.00_0.01/Logo_completo_Color_1PNG.webp' </img>
 </p>
 
-# Proyecto Integrador | [**Rick and Morty**](https://rick-and-morty-insa.vercel.app/)
+# PROYECTO INTEGRADOR | [**Rick and Morty**](https://rick-and-morty-insa.vercel.app/)
 
 <p align="center">
   <img src="https://www.evilsocket.net/images/2017/04/head.jpeg" />
@@ -45,8 +45,6 @@ Sí deseas ingresar al deploy del proyecto, puedes utilizar el siguiente usuario
 -  **E-Mail**: `user@mail.com`
 -  **Password**: `Abcd1234`
 
-<!-- <br /> -->
-
 ---
 
 <div align="center">
@@ -66,8 +64,6 @@ Para verificar que versión tienes instalada:
    node -v
    npm -v
    ```
-
-<!-- <br /> -->
 
 ---
 
@@ -118,8 +114,6 @@ Para verificar que versión tienes instalada:
 
     Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real
 
-<!-- <br /> -->
-
 ---
 
 <div align="center">
@@ -131,8 +125,6 @@ Para verificar que versión tienes instalada:
 -  [**The Rick and Morty API**](https://rickandmortyapi.com/api/character/)
 -  **Por id**: _"https://rickandmortyapi.com/api/character/{id}"_
 
-<!-- <br /> -->
-
 ---
 
 <div align="center">
@@ -140,8 +132,6 @@ Para verificar que versión tienes instalada:
 ## **📁 DETALLES**
 
 </div>
-
-<!-- <br /> -->
 
 ### **🖱 FRONT-END**
 
@@ -158,14 +148,10 @@ Se desarrollo una aplicación de React/Redux que contiene:
 
 > [**IMPORANTE**]: el formulario está validado sólo con JavaScript.
 
-<br />
-
 **📍 HOME PAGE |** La página principal de la Single Page Application contiene:
 
 -  **NavBar:** Una barra de navegación para recorrer el resto del proyecto.
 -  Sector en el que se ve el listado de cards con los personajes buscados en SearchBar. Cuando se le hace click en la imagen posterior de una Card, redirige al detalle de ese personaje específico.
-
-<br />
 
 **📍 NAV BAR |** Barra de navegación que contiene:
 
@@ -176,8 +162,6 @@ Se desarrollo una aplicación de React/Redux que contiene:
 -  **Light/Dark Toggle:** Permite cambiar de tema claro a tema oscuro y viceversa.
 -  **Pickle Rick:** Al hacer hover sobre la imagen reproduce audios de este personaje.
 
-<br />
-
 **📍 DETAIL PAGE |** En esta página se muestra toda la información específica de un personaje:
 
 -  Imagen
@@ -186,16 +170,12 @@ Se desarrollo una aplicación de React/Redux que contiene:
 -  Genero
 -  Origen
 
-<br />
-
 **📍 FAVORITES |** La página que muestra todos los personajes añadidos a favoritos contiene:
 
 -  Sector en el que se ve el listado de cards con los personajes añadidos a favoritos. Se visualizan de igual manera que en **`HOME PAGE`**.
 -  Cuando se le hace click a una Card redirige al detalle de ese personaje específico.
 -  Botones/Opciones para **filtrar** por genero.
 -  Botones/Opciones para **ordenar** tanto ascendentemente como descendentemente los personajes por orden de ID.
-
-<br />
 
 **📍 ABOUT |** La página que muestra información del autor del proyecto contiene:
 
@@ -204,8 +184,6 @@ Se desarrollo una aplicación de React/Redux que contiene:
     -  **Acerca de mí:** Contiene una imagen caricaturizada al estilo Rick and Morty, una breve reseña y links de diferentes redes sociales.
     -  **Experiencia:** Información laboral, previa al ingreso al mundo tech.
     -  **Contacto:** Información con distintos métodos de contacto con el autor del proyecto.
-
-<!-- <br /> -->
 
 ---
 
@@ -233,11 +211,7 @@ Se desarrollo un servidor en Node.js/Express con las siguientes rutas:
 
 -  Permite eliminar un personaje de la lista de favoritos.
 
-<!-- <br /> -->
-
 ---
-
-<!-- <br /> -->
 
 ### **🖱 BASE DE DATOS**
 
@@ -253,19 +227,13 @@ Son 2 modelos de base de datos. Uno para la adición de favoritos y otra para cr
 -  Genero
 -  Origen
 
-<br />
-
 **📍 USER**
 
 -  ID
 -  E-Mail
 -  Contraseña
 
-<!-- <br /> -->
-
 ---
-
-<br />
 
 <div align="end">
 
