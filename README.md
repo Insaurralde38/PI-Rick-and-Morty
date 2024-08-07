@@ -45,7 +45,7 @@ Sí deseas ingresar al deploy del proyecto, puedes utilizar el siguiente usuario
 -  **E-Mail**: `user@mail.com`
 -  **Password**: `Abcd1234`
 
-<br />
+<!-- <br /> -->
 
 ---
 
@@ -67,7 +67,7 @@ Para verificar que versión tienes instalada:
    npm -v
    ```
 
-<br />
+<!-- <br /> -->
 
 ---
 
@@ -118,7 +118,7 @@ Para verificar que versión tienes instalada:
 
     Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real
 
-<br />
+<!-- <br /> -->
 
 ---
 
@@ -131,7 +131,7 @@ Para verificar que versión tienes instalada:
 -  [**The Rick and Morty API**](https://rickandmortyapi.com/api/character/)
 -  **Por id**: _"https://rickandmortyapi.com/api/character/{id}"_
 
-<br />
+<!-- <br /> -->
 
 ---
 
