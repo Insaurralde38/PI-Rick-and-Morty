@@ -45,18 +45,6 @@ Sí deseas ingresar al deploy del proyecto, puedes utilizar el siguiente usuario
 -  **E-Mail**: `user@mail.com`
 -  **Password**: `Abcd1234`
 
-Es necesario contar mínimamente con la última versión estable de Node.js y NPM. Asegúrate de contar con ella para poder instalar correctamente las dependencias necesarias para correr el proyecto. Actualmente las versiones necesarias son:
-
--  **Node**: 12.18.3 o mayor
--  **NPM**: 6.14.16 o mayor
-
-Para verificar que versión tienes instalada:
-
-```bash
-node -v
-npm -v
-```
-
 <br />
 
 ---
@@ -67,32 +55,68 @@ npm -v
 
 </div>
 
-**1.** Sí deseas clonar el repositorio en tu computadora para ejecutarlo de manera local, primero es necesario instalar las dependencias de los archivos **`package.json`** tanto del Back-End, como del Front-End. Para ello es necesario que abras una terminal ubicado dentro de la carpeta **`Client`** y otra terminal ubicado dentro de la carpeta **`Server`**.
+Es necesario contar mínimamente con la última versión estable de **Node.js** y **npm**. Asegúrate de contar con ella para poder instalar correctamente las dependencias necesarias para correr el proyecto. Actualmente las versiones necesarias son:
 
--  Cuando te encuentres en estas carpetas, debes ejecutar el comando
+-  **Node.js**: 12.18.3 o mayor
+-  **npm**: 6.14.16 o mayor
 
-```bash
-    npm install
-```
+Para verificar que versión tienes instalada:
 
-**2.** En la carpeta **`Server`** deberás crear un archivo llamado: **`.env`** que tenga la siguiente forma:
-
-   ```env
-       DB_USER=usuariodepostgres
-       DB_PASSWORD=passwordDePostgres
-       DB_HOST=localhost
+   ```bash
+   node -v
+   npm -v
    ```
 
-**3.** Reemplazar **`usuariodepostgres`** y **`passwordDePostgres`** con tus propias credenciales para conectarte a postgres. Este archivo no está incluido en este repositorio de github, ya que las credenciales son información sensible.
+<br />
 
-**4.** Adicionalmente será necesario que crees, **desde psql (shell o PGAdmin)**, una base de datos llamada **`rickandmorty`**. Si no realizas este paso de manera manual no podrás visualizar el proyecto de manera local.
+---
 
-**5.** Para visualizar la aplicación desde el navegador, en ambas terminales previamente abiertas, debes ejecutar el comando:
+<div align="center">
 
+## **⚙️ INSTALACIÓN Y USO**
 
-        npm start
+</div>
 
-Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real.
+1. **Clonar el repositorio:**
+
+   ```bash
+   git clone https://github.com/Insaurralde38/PI-Rick-and-Morty.git
+   cd PI-Rick-and-Morty
+   ```
+
+2. **Instalar dependencias**:
+
+    Asegúrate de tener **Node.js** y **npm** instalados en tu sistema. Luego, instala lasdependencias de los archivos **`package.json`** tanto del Back-End, como del Front-End. Para elloes necesario que abras una terminal ubicado dentro de la carpeta **`Client`** y otra terminalubicado dentro de la carpeta **`Server`**.
+
+   ```bash
+   npm install
+   ```
+
+3. **Añadir variables de entorno**:
+
+    En la carpeta **`Server`** deberás crear un archivo llamado: **`.env`** que tenga la siguiente forma:
+
+   ```env
+   DB_USER=usuariodepostgres
+   DB_PASSWORD=passwordDePostgres
+   DB_HOST=localhost
+   ```
+
+    Reemplazar **`usuariodepostgres`** y **`passwordDePostgres`** con tus propias credenciales para conectarte a postgres. Este archivo no está incluido en este repositorio de github, ya que las credenciales son información sensible.
+
+2. **Crear base de datos**:
+
+    Adicionalmente será necesario que crees, **desde psql (shell o PGAdmin)**, una base de datos llamada **`rickandmorty`**. Si no realizas este paso de manera manual no podrás visualizar el proyecto de manera local.
+
+5. **Añadir variables de entorno**:
+
+    Para visualizar la aplicación desde el navegador, en ambas terminales previamente abiertas, debes ejecutar el comando:
+
+   ```bash
+   npm start
+   ```
+
+    Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real
 
 <br />
 
@@ -245,6 +269,6 @@ Son 2 modelos de base de datos. Uno para la adición de favoritos y otra para cr
 
 <div align="end">
 
-Hecho con 💙💛💙 por [**DIEGO INSAURRALDE**](https://www.linkedin.com/in/djinsaurralde38/) 🐒
+Hecho con <img src="./Client/src/components/Assets/boke-heart.png" alt="heart" height="14" width="16" style="margin: 0px 0px -2.5px 0px" > por [**DIEGO INSAURRALDE**](https://insaurralde.vercel.app/) <img src="./Client/src/components/Assets/boke-chimp.png" alt="chimp" height="21" width="21" style="margin: 0px 0px -4px 0px" >
 
 </div>
