@@ -205,7 +205,7 @@ Se desarrollo una aplicación de React/Redux que contiene:
     -  **Experiencia:** Información laboral, previa al ingreso al mundo tech.
     -  **Contacto:** Información con distintos métodos de contacto con el autor del proyecto.
 
-<br />
+<!-- <br /> -->
 
 ---
 
@@ -233,7 +233,7 @@ Se desarrollo un servidor en Node.js/Express con las siguientes rutas:
 
 -  Permite eliminar un personaje de la lista de favoritos.
 
-<br />
+<!-- <br /> -->
 
 ---
 
@@ -261,7 +261,7 @@ Son 2 modelos de base de datos. Uno para la adición de favoritos y otra para cr
 -  E-Mail
 -  Contraseña
 
-<br />
+<!-- <br /> -->
 
 ---
 
