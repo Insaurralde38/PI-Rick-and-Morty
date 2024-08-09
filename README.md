@@ -5,7 +5,7 @@
 # Proyecto Integrador | [**Rick and Morty**](https://rick-and-morty-insa.vercel.app/)
 
 <p align="center">
-  <img src="https://www.evilsocket.net/images/2017/04/head.jpeg" />
+  <img src="https://www.evilsocket.net/images/2017/04/head.jpeg" alt="Rick and Morty Banner" />
 </p>
 
 <div align="center">
