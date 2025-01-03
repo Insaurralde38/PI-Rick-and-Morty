@@ -12,17 +12,17 @@
 
 ## **📌 TECNOLOGÍAS UTILIZADAS**
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![HTML5](https://img.shields.io/badge/-HTML5-E46625?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-385BF4?style=flat-square&logo=css3)
-[![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react&link=https://es.react.dev/)](https://es.react.dev/)
-[![Redux](https://img.shields.io/badge/Redux-%237241BE.svg?style=flat-square&logo=redux&logoColor=white&link=https://es.redux.js.org/)](https://es.redux.js.org/)
-[![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=Node.js&link=https://nodejs.org/es)](https://nodejs.org/es)
-[![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=white&link=https://expressjs.com/es/)](https://expressjs.com/es/)
-[![Sequelize](https://img.shields.io/badge/Sequelize-31396A?style=flat-square&logo=Sequelize&logoColor=68AEE8&link=https://sequelize.org/)](https://sequelize.org/)
-[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-%23404d59?style=flat-square&logo=postgresql&logoColor=%2361DAFB&link=https://www.postgresql.org/)](https://www.postgresql.org/)
-[![Vercel](https://img.shields.io/badge/-Vercel-black?style=flat-square&logo=vercel&link=https://vercel.com/)](https://vercel.com/)
-[![Render](https://img.shields.io/badge/-Render-black?style=flat-square&logo=render&link=https://render.com/)](https://render.com/)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-E46625?style=for-the-badge&logo=html5&logoColor=FFFFFF)
+![CSS](https://img.shields.io/badge/-CSS-663399?style=for-the-badge&logo=css)
+[![React](https://img.shields.io/badge/-React-000000?style=for-the-badge&logo=react&link=https://es.react.dev/)](https://es.react.dev/)
+[![Redux](https://img.shields.io/badge/Redux-%237241BE.svg?style=for-the-badge&logo=redux&logoColor=FFFFFF&link=https://es.redux.js.org/)](https://es.redux.js.org/)
+[![Node.js](https://img.shields.io/badge/-Node.js-000000?style=for-the-badge&logo=Node.js&link=https://nodejs.org/es)](https://nodejs.org/es)
+[![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=FFFFFF&link=https://expressjs.com/es/)](https://expressjs.com/es/)
+[![Sequelize](https://img.shields.io/badge/Sequelize-31396A?style=for-the-badge&logo=Sequelize&logoColor=68AEE8&link=https://sequelize.org/)](https://sequelize.org/)
+[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-%23404d59?style=for-the-badge&logo=postgresql&logoColor=%2361DAFB&link=https://www.postgresql.org/)](https://www.postgresql.org/)
+[![Vercel](https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&link=https://vercel.com/)](https://vercel.com/)
+[![Render](https://img.shields.io/badge/-Render-000000?style=for-the-badge&logo=render&link=https://render.com/)](https://render.com/)
 
 </div>
 
@@ -44,86 +44,6 @@ Sí deseas ingresar al deploy del proyecto, puedes utilizar el siguiente usuario
 
 -  **E-Mail**: `user@mail.com`
 -  **Password**: `Abcd1234`
-
----
-
-<div align="center">
-
-## **⚠️ IMPORTANTE!**
-
-</div>
-
-Es necesario contar mínimamente con la última versión estable de **Node.js** y **npm**. Asegúrate de contar con ella para poder instalar correctamente las dependencias necesarias para correr el proyecto. Actualmente las versiones necesarias son:
-
--  **Node.js**: 12.18.3 o mayor
--  **npm**: 6.14.16 o mayor
-
-Para verificar que versión tienes instalada:
-
-   ```bash
-   node -v
-   npm -v
-   ```
-
----
-
-<div align="center">
-
-## **⚙️ INSTALACIÓN Y USO**
-
-</div>
-
-1. **Clonar el repositorio:**
-
-   ```bash
-   git clone https://github.com/Insaurralde38/PI-Rick-and-Morty.git
-   cd PI-Rick-and-Morty
-   ```
-
-2. **Instalar dependencias**:
-
-    Asegúrate de tener **Node.js** y **npm** instalados en tu sistema. Luego, instala las dependencias de los archivos **`package.json`** tanto del Back-End, como del Front-End. Para ello es necesario que abras una terminal ubicado dentro de la carpeta **`Client`** y otra terminal ubicado dentro de la carpeta **`Server`**.
-
-   ```bash
-   npm install
-   ```
-
-3. **Añadir variables de entorno**:
-
-    En la carpeta **`Server`** deberás crear un archivo llamado: **`.env`** que tenga la siguiente forma:
-
-   ```env
-   DB_USER=usuarioDePostgres
-   DB_PASSWORD=passwordDePostgres
-   DB_HOST=localhost
-   ```
-
-    Reemplazar **`usuarioDePostgres`** y **`passwordDePostgres`** con tus propias credenciales para conectarte a **PostgreSQL**. Este archivo no está incluido en este repositorio de github, ya que las credenciales son información sensible.
-
-2. **Crear base de datos**:
-
-    Adicionalmente será necesario que crees, desde **psql (shell o PGAdmin)**, una base de datos llamada **`rickandmorty`**. Si no realizas este paso de manera manual no podrás visualizar el proyecto de manera local.
-
-5. **Añadir variables de entorno**:
-
-    Para visualizar la aplicación desde el navegador, en ambas terminales previamente abiertas, debes ejecutar el comando:
-
-   ```bash
-   npm start
-   ```
-
-    Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real
-
----
-
-<div align="center">
-
-## **📖 ENDPOINTS UTILIZADOS**
-
-</div>
-
--  [**The Rick and Morty API**](https://rickandmortyapi.com/api/character/)
--  **Por id**: _"https://rickandmortyapi.com/api/character/{id}"_
 
 ---
 
@@ -232,6 +152,86 @@ Son 2 modelos de base de datos. Uno para la adición de favoritos y otra para cr
 -  ID
 -  E-Mail
 -  Contraseña
+
+---
+
+<div align="center">
+
+## **📖 ENDPOINTS UTILIZADOS**
+
+</div>
+
+-  [**The Rick and Morty API**](https://rickandmortyapi.com/api/character/)
+-  **Por id**: _"https://rickandmortyapi.com/api/character/{id}"_
+
+---
+
+<div align="center">
+
+## **⚙️ INSTALACIÓN Y USO**
+
+</div>
+
+1. **Clonar el repositorio:**
+
+   ```bash
+   git clone https://github.com/Insaurralde38/PI-Rick-and-Morty.git
+   cd PI-Rick-and-Morty
+   ```
+
+2. **Instalar dependencias**:
+
+    Asegúrate de tener **Node.js** y **npm** instalados en tu sistema. Luego, instala las dependencias de los archivos **`package.json`** tanto del Back-End, como del Front-End. Para ello es necesario que abras una terminal ubicado dentro de la carpeta **`Client`** y otra terminal ubicado dentro de la carpeta **`Server`**.
+
+   ```bash
+   npm install
+   ```
+
+3. **Añadir variables de entorno**:
+
+    En la carpeta **`Server`** deberás crear un archivo llamado: **`.env`** que tenga la siguiente forma:
+
+   ```env
+   DB_USER=usuarioDePostgres
+   DB_PASSWORD=passwordDePostgres
+   DB_HOST=localhost
+   ```
+
+    Reemplazar **`usuarioDePostgres`** y **`passwordDePostgres`** con tus propias credenciales para conectarte a **PostgreSQL**. Este archivo no está incluido en este repositorio de github, ya que las credenciales son información sensible.
+
+2. **Crear base de datos**:
+
+    Adicionalmente será necesario que crees, desde **psql (shell o PGAdmin)**, una base de datos llamada **`rickandmorty`**. Si no realizas este paso de manera manual no podrás visualizar el proyecto de manera local.
+
+5. **Añadir variables de entorno**:
+
+    Para visualizar la aplicación desde el navegador, en ambas terminales previamente abiertas, debes ejecutar el comando:
+
+   ```bash
+   npm start
+   ```
+
+    Ingresando a <http://localhost:3000> desde el navegador, podrás ver el proyecto en tiempo real
+
+---
+
+<div align="center">
+
+## **⚠️ IMPORTANTE!**
+
+</div>
+
+Es necesario contar mínimamente con la última versión estable de **Node.js** y **npm**. Asegúrate de contar con ella para poder instalar correctamente las dependencias necesarias para correr el proyecto. Actualmente las versiones necesarias son:
+
+-  **Node.js**: 12.18.3 o mayor
+-  **npm**: 6.14.16 o mayor
+
+Para verificar que versión tienes instalada:
+
+   ```bash
+   node -v
+   npm -v
+   ```
 
 ---
 
