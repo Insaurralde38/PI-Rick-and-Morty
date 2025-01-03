@@ -40,10 +40,25 @@ Es una aplicación en la cual se puedan ver los distintos personajes de la serie
   - **Añadir a favoritos**
   - **Filtrar y ordenar favoritos**
 
-Sí deseas ingresar al deploy del proyecto, puedes utilizar el siguiente usuario genérico:
+Sí deseas ingresar al deploy del proyecto:
 
--  **E-Mail**: `user@mail.com`
--  **Password**: `Abcd1234`
+<table>
+  <thead>
+    <tr>
+      <th colspan=2 style="text-align: center">Usuario de prueba</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>E-Mail</b></td>
+      <td>user@mail.com</td>
+    </tr>
+    <tr>
+      <td><b>Password</b></td>
+      <td>Abcd1234</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
